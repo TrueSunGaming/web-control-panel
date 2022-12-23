@@ -1,5 +1,5 @@
 (() => {
-    const VERSION = "1.1.0";
+    const VERSION = "1.1.1";
 
     const win = window.open("about:blank", "_blank", "popup, width=600, height=600");
     if (!win) return alert("Please allow popups.");
@@ -71,7 +71,7 @@
         const defaultData = {
             scripts: []
         };
-        if (data instanceof Object) for (const i of Object.keys(defaultData)) if (!(i in data)) data[i] = defaultData[i];
+        if (data instanceof Object) for (const i of Object.keys(defaultData)) data[i] = defaultData[i];
         else data = defaultData;
     };
 
