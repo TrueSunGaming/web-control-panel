@@ -25,7 +25,7 @@ Visual Studio Code
 * Open [insiders.vscode.dev](https://insiders.vscode.dev) in new tab or popup
 
 Script Manager
-* Create, run, rename, and delete scripts (WARNING: Only works if content security policy is off on the site you are trying to run code on.)
+* Create, run, rename, and delete scripts (WARNING: Only works if the site you are running code on does not have Content Security Policy turned on.)
 * Site-specific saving
 
 Page Controls
