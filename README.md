@@ -1,7 +1,7 @@
 # Web Control Panel
 A user interface built into a bookmark.
 
-Version 1.1 (December 22, 2022)
+Version 1.1.1 (December 22, 2022)
 
 ## Usage
 Paste [this script](https://raw.githubusercontent.com/TrueSunGaming/web-control-panel/main/bookmark.js) into the URL of a bookmark.
