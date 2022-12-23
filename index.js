@@ -66,7 +66,7 @@
         return document.querySelectorAll(":hover");
     }
 
-    var data = JSON.parse(win.localStorage.TRUESUNGAMING_WEBCONTROLS_DATA ?? "null");
+    var data = JSON.parse(localStorage.TRUESUNGAMING_WEBCONTROLS_DATA ?? "null");
     if (!data) {
         const defaultData = {
             scripts: []
@@ -228,6 +228,6 @@
     }, 50/3);
 
     const saveLoop = setInterval(() => {
-        win.localStorage.TRUESUNGAMING_WEBCONTROLS_DATA = JSON.stringify(data);
+        localStorage.TRUESUNGAMING_WEBCONTROLS_DATA = JSON.stringify(data);
     }, 500);
 })();
