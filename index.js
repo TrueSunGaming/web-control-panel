@@ -119,7 +119,7 @@
             for (const i of getHoveredNodes()) {
                 i.dispatchEvent(new CustomEvent("mouseup"));
                 i.dispatchEvent(new CustomEvent("mousedown"));
-                i.dispatchEvent(new CustomEvent("click"));
+                i.click();
             }
         }, 1000 / autoclickerCPS);
         else clearInterval(autoclickerInterval)
