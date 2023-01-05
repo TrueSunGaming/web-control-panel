@@ -1,5 +1,5 @@
 (() => {
-    const VERSION = "1.1.1";
+    const VERSION = "1.1.2";
 
     const win = window.open("about:blank", "_blank", "popup, width=600, height=600");
     if (!win) return alert("Please allow popups.");
