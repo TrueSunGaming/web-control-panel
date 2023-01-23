@@ -28,3 +28,4 @@ Miscellaneous Tools
 ## Known Bugs
 * Editors may not work on some websites
 * Font may not load on some websites
+* Input boxes may not be colored correctly on some websites
