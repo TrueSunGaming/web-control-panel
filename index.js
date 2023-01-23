@@ -1,6 +1,6 @@
 (() => {
-    const VERSION = "2.0.0";
-    const RELEASE = "January 22, 2023";
+    const VERSION = "2.0.1";
+    const RELEASE = "January 23, 2023";
     var win = null;
     var win2 = null;
     var win3 = null;
@@ -576,6 +576,7 @@
 
             :root {
                 --color-main: hsl(0, 0%, 10%);
+                --color-main-light: hsl(0, 0%, 15%);
                 --color-main-dark: hsl(0, 0%, 5%);
                 --color-error: hsl(0, 100%, 50%);
                 --color-error-dark: hsl(0, 100%, 25%);
