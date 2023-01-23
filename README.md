@@ -26,6 +26,6 @@ Miscellaneous Tools
 * Custom Popup
 
 ## Known Bugs
-* Editors may not work on some websites
-* Font may not load on some websites
-* Input boxes may not be colored correctly on some websites
+* Editors may not work on some websites (ex. GitHub)
+* Font may not load on some websites (ex. GitHub)
+* Input boxes may not be colored correctly on some websites (ex. GitHub)
