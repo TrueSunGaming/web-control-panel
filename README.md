@@ -22,3 +22,7 @@ Scripting
 Miscellaneous Tools
 * Emergency exit
 * Custom Popup
+
+## Known Bugs
+* Editors may not work on some websites
+* Font may not load on some websites
