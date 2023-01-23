@@ -4,7 +4,9 @@ A user interface built into a bookmark.
 Version 2.0.0 (January 22, 2023)
 
 ## Usage
-Paste [this script](https://raw.githubusercontent.com/TrueSunGaming/web-control-panel/main/bookmark.js) into the URL of a bookmark.
+1. Create a bookmark on any website
+2. Right click the bookmark and press edit
+3. Paste [this script](https://raw.githubusercontent.com/TrueSunGaming/web-control-panel/main/bookmark.js) into the URL/address
 
 ## Features
 
