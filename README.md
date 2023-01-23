@@ -22,7 +22,7 @@ Scripting
 * CSS editor and injector (doesn't work on some sites)
 
 Miscellaneous Tools
-* Emergency exit
+* Emergency exit (the popup might be blocked)
 * Custom Popup
 
 ## Known Bugs
