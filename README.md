@@ -1,7 +1,7 @@
 # Web Control Panel
 A user interface built into a bookmark.
 
-Version 2.0.0 (January 22, 2023)
+Version 2.0.1 (January 23, 2023)
 
 ## Usage
 1. Create a bookmark on any website
@@ -29,4 +29,3 @@ Miscellaneous Tools
 * Editors may not work on some websites (ex. GitHub)
 * Editors may never finish loading on some websites
 * Font may not load on some websites (ex. GitHub)
-* Input boxes may not be colored correctly on some websites (ex. GitHub)
