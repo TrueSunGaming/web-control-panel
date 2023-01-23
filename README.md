@@ -27,5 +27,6 @@ Miscellaneous Tools
 
 ## Known Bugs
 * Editors may not work on some websites (ex. GitHub)
+* Editors may never finish loading on some websites
 * Font may not load on some websites (ex. GitHub)
 * Input boxes may not be colored correctly on some websites (ex. GitHub)
