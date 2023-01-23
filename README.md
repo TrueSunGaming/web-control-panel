@@ -1,34 +1,24 @@
 # Web Control Panel
 A user interface built into a bookmark.
 
-Version 1.1.2 (January 5, 2023)
+Version 2.0.0 (January 22, 2023)
 
 ## Usage
 Paste [this script](https://raw.githubusercontent.com/TrueSunGaming/web-control-panel/main/bookmark.js) into the URL of a bookmark.
 
 ## Features
 
-Information
-* Unix Time
-* Panel Runtime
-* Version
-* Website Info
-* Autoclicker Info
+Search and Replace
+* Replace (Case Sensitive)
+* Replace (Case Insensitive)
 
-Main Controls
-* Execute JavaScript
-* Popup Window
-* Autoclicker Controls
+Autoclicker
+* Clicks per second, only limited by the speed of your computer
 
-Visual Studio Code
-* Open [vscode.dev](https://vscode.dev) in new tab or popup
-* Open [insiders.vscode.dev](https://insiders.vscode.dev) in new tab or popup
+Scripting
+* JavaScript editor and injector (doesn't work on some sites)
+* CSS editor and injector (doesn't work on some sites)
 
-Script Manager
-* Create, run, rename, and delete scripts (WARNING: Only works if the site you are running code on does not have Content Security Policy turned on.)
-* Site-specific saving
-
-Page Controls
-* Set Page Content
-* Clear Page Content
-* Replace Text
+Miscellaneous Tools
+* Emergency exit
+* Custom Popup
