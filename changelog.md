@@ -29,5 +29,24 @@ Custom Popup was never finished and never worked.
 * Added Case Insensitive Replacing
 * Added Script Editor using [Monaco Editor](https://microsoft.github.io/monaco-editor/)
 * Added Stylesheet Editor using [Monaco Editor](https://microsoft.github.io/monaco-editor/)
-* Autoclicker now uses an input box instead of a prompt box.
-* Autoclicker now stops when Web Control Panel is closed.
+* Autoclicker now uses an input box instead of a prompt box
+* Autoclicker now stops when Web Control Panel is closed
+
+# 1.1.1 -> 1.1.2 - Patch
+### January 5, 2023
+* Autoclicker now triggers the `click()` method of elements
+
+# 1.1.0 -> 1.1.1 - Patch
+### December 22, 2023
+* Fixed error in data loading
+
+# 1.0.0 -> 1.1.0 - Minor
+### December 22, 2023
+* Added Version Info
+* Added Website Info
+* Added Autoclicker Info
+* Added Popup Window
+* Added Autoclicker
+* Added [VSCode](https://vscode.dev/) Openers
+* Added Script Manager
+* Added Replace Text
