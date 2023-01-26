@@ -1,7 +1,7 @@
 # Web Control Panel
 A user interface built into a bookmark.
 
-Version 2.0.1 (January 23, 2023)
+Version 2.0.2 (January 26, 2023)
 
 ## Usage
 1. Create a bookmark on any website
@@ -20,10 +20,6 @@ Autoclicker
 Scripting
 * JavaScript editor and injector (doesn't work on some sites)
 * CSS editor and injector (doesn't work on some sites)
-
-Miscellaneous Tools
-* Emergency exit (the popup might be blocked)
-* Custom Popup
 
 ## Known Bugs
 * Editors may not work on some websites (ex. GitHub)
