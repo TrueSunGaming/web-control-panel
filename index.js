@@ -1,6 +1,6 @@
 (() => {
-    const VERSION = "2.0.1";
-    const RELEASE = "January 23, 2023";
+    const VERSION = "2.0.2";
+    const RELEASE = "January 26, 2023";
     var win = null;
     var win2 = null;
     var win3 = null;
@@ -221,7 +221,7 @@
             el.appendChild(br(true));
             el.appendChild(br(true));
 
-            el.appendChild((() => {
+            /*el.appendChild((() => {
                 const b = button("", () => {
                     other();
                 }, true);
@@ -235,7 +235,7 @@
                 })());
 
                 return b;
-            })());
+            })());*/
 
             el.style.position = "absolute";
             el.style.top = 0;
