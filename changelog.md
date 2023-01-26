@@ -7,4 +7,4 @@ Emergency Exit and Custom Popup did not work well with most browsers due to the 
 Custom Popup was never finished and never worked.
 
 # 2.0.0 -> 2.0.1
-* Fixed bug with font not loading
+* Fixed bug with input boxes being colored wrong
