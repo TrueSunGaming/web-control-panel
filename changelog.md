@@ -17,12 +17,12 @@ Custom Popup was never finished and never worked.
 * Removed Unix Time
 * Removed Panel Runtime
 * Removed Website Info
-* Removed Execute JavaScript
+* Removed Execute JavaScript (Replaced with Script Editor)
 * Removed [VSCode](https://vscode.dev/) Openers
 * Removed Script Manager
 * Removed Set Page Content
 * Removed Clear Page Content
-* Removed Replace Text
+* Removed Replace Text (Replaced with Search and Replace)
 * Added Homepage
 * Added Search and Replace
 * Added Case Sensitive Replacing
