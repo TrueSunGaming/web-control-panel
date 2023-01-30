@@ -1,7 +1,7 @@
 # Web Control Panel
 A user interface built into a bookmark.
 
-Version 2.0.2 (January 26, 2023)
+Version 2.1.0 (January 30, 2023)
 
 ## How to add to your browser
 1. Create a bookmark on any website
@@ -20,6 +20,9 @@ Autoclicker
 Scripting
 * JavaScript editor and injector (doesn't work on some sites)
 * CSS editor and injector (doesn't work on some sites)
+
+Shortcuts
+* Ctrl+Shift+H: Reopens or focuses Web Control Panel
 
 ## Known Bugs
 * Editors may not work on some websites (ex. GitHub)
