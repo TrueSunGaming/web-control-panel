@@ -37,11 +37,11 @@ Custom Popup was never finished and never worked.
 * Autoclicker now triggers the `click()` method of elements
 
 # 1.1.0 -> 1.1.1 - Patch
-### December 22, 2023
+### December 22, 2022
 * Fixed error in data loading
 
 # 1.0.0 -> 1.1.0 - Minor
-### December 22, 2023
+### December 22, 2022
 * Added Version Info
 * Added Website Info
 * Added Autoclicker Info
