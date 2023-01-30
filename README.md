@@ -3,7 +3,7 @@ A user interface built into a bookmark.
 
 Version 2.0.2 (January 26, 2023)
 
-## Usage
+## How to add to your browser
 1. Create a bookmark on any website
 2. Right click the bookmark and press edit
 3. Paste [this script](https://raw.githubusercontent.com/TrueSunGaming/web-control-panel/main/bookmark.js) into the URL/address
