@@ -1,6 +1,6 @@
 (() => {
-    const VERSION = "2.0.2";
-    const RELEASE = "January 26, 2023";
+    const VERSION = "2.1.0";
+    const RELEASE = "January 30, 2023";
     var win = null;
     var win2 = null;
     var win3 = null;
@@ -21,6 +21,13 @@
         if (win2) win2.close();
         if (win3) win3.close();
         if (win) win.close();
+    });
+
+    addEventListener("keydown", (e) => {
+        if (e.code == "KeyH" && e.ctrlKey && e.shiftKey && !e.altKey && !e.metaKey) {
+            e.preventDefault();
+            init();
+        }
     });
 
     function loadScript(url, onto = win.document.head) {
@@ -259,6 +266,7 @@
 
             el.appendChild(text("A user interface built into a bookmark.", true));
             el.appendChild(text(`Version ${VERSION} (${RELEASE})`, true));
+            el.appendChild(text("Press Ctrl+Shift+H to focus or reopen this window.", true));
 
             el.appendChild(br(true));
             el.appendChild(link("Created by TrueSunGaming", "https://github.com/TrueSunGaming", true));
@@ -556,7 +564,7 @@
     }
 
     function init() {
-        if (window.TRUESUNGAMING_WEBCONTROLS_WINDOW) window.TRUESUNGAMING_WEBCONTROLS_WINDOW.close();
+        if (window.TRUESUNGAMING_WEBCONTROLS_WINDOW) return window.TRUESUNGAMING_WEBCONTROLS_WINDOW.focus();
 
         win = window.open("about:blank", "_blank", "popup width=600 height=600");
         if (!win) return alert("Please allow popups to use Web Control Panel.");
