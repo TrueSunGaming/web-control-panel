@@ -1,7 +1,7 @@
 # 2.0.2 -> 2.1.0 - Minor
 ### January 30, 2023
 * Added Ctrl+Shift+H shortcut to reopen or focus Web Control Panel
-* Running the bookmark while it is already running now focuses the old window instead of opening a new one.
+* Running the bookmark while it is already running now focuses the old window instead of opening a new one
 
 # 2.0.1 -> 2.0.2 - Patch
 ### January 26, 2023
