@@ -55,3 +55,6 @@ Custom Popup was never finished and never worked.
 * Added [VSCode](https://vscode.dev/) Openers
 * Added Script Manager
 * Added Replace Text
+
+# 1.0.0 - Initial Release
+### December 20, 2022
