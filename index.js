@@ -1,5 +1,5 @@
 (() => {
-    const VERSION = "2.1.0";
+    const VERSION = "2.1.1";
     const RELEASE = "January 30, 2023";
     var win = null;
     var win2 = null;
@@ -10,7 +10,6 @@
     var cps = 20;
 
     const clickInterval = setInterval(() => {
-        window.TRUESUNGAMING_WEBCONTROLS_WINDOW = win;
         if (autoclicking && Date.now() - lastClick >= 1000 / cps) {
             lastClick = Date.now();
             autoclick();
@@ -21,13 +20,6 @@
         if (win2) win2.close();
         if (win3) win3.close();
         if (win) win.close();
-    });
-
-    addEventListener("keydown", (e) => {
-        if (e.code == "KeyH" && e.ctrlKey && e.shiftKey && !e.altKey && !e.metaKey) {
-            e.preventDefault();
-            init();
-        }
     });
 
     function loadScript(url, onto = win.document.head) {
@@ -569,7 +561,17 @@
         win = window.open("about:blank", "_blank", "popup width=600 height=600");
         if (!win) return alert("Please allow popups to use Web Control Panel.");
 
-        window.TRUESUNGAMING_WEBCONTROLS_USED = true;
+        window.TRUESUNGAMING_WEBCONTROLS_WINDOW = win;
+
+        if (!window.TRUESUNGAMING_WEBCONTROLS_USED) {
+            addEventListener("keydown", (e) => {
+                if (e.code == "KeyH" && e.ctrlKey && e.shiftKey && !e.altKey && !e.metaKey) {
+                    e.preventDefault();
+                    init();
+                }
+            });
+            window.TRUESUNGAMING_WEBCONTROLS_USED = true;
+        }
 
         win.addEventListener("beforeunload", () => {
             clearInterval(clickInterval);
