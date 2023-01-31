@@ -1,7 +1,7 @@
 # Web Control Panel
 A user interface built into a bookmark.
 
-Version 2.1.0 (January 30, 2023)
+Version 2.1.1 (January 30, 2023)
 
 ## How to add to your browser
 1. Create a bookmark on any website
