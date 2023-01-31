@@ -1,3 +1,8 @@
+# 2.1.0 -> 2.1.1 - Patch
+### January 30, 2023
+* Fixed bug where Ctrl+Shift+H would open multiple windows
+* Fixed bug where Web Control Panel could only be detected if the autoclicker was enabled
+
 # 2.0.2 -> 2.1.0 - Minor
 ### January 30, 2023
 * Added Ctrl+Shift+H shortcut to reopen or focus Web Control Panel
